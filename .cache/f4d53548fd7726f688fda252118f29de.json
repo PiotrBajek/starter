@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"/Users/piotrbajek/Parcel/package.json","includedInParent":true,"mtime":1519727777020},{"name":"./style/style.scss","loc":{"line":1,"column":7}}],"generated":{"js":"\"use strict\";require(\"./style/style.scss\"),document.write(\"Winter is coming!!!\");"},"hash":"c3c1cf84bdf5acfd3aaa8ef57bf7f8ba","cacheData":{"env":{}}}

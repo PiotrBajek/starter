@@ -1,0 +1,33 @@
+$borderColor: #6A6A6A;
+$bpColor: #FFF;
+$textColor: 333;
+
+@mixin baseInput {
+  font-size: 1.6rem;
+  width: 100%;
+  border: 1px solid $borderColor;
+  border-radius: 2px;
+  outline: none;
+  background: $bpColor;
+  padding: .9rem 1rem;
+  color: #333;
+}
+
+.formInput-text {
+  @include baseInput;
+  //additional styles
+}
+
+.formInput-select {
+  @include baseInput;
+  //additional styles
+}
+
+.formInput-number {
+  @include baseInput;
+  //additional styles
+}
+
+.formInput-submit {
+  //other styles
+}
